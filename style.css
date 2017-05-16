@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #00BCD4 !important;
+}
+.quote-box {
+  background-color: #fff;
+  height: 250px;
+  margin: 20vh auto;
+  border: 0px;
+  border-radius: 5px !important;
+  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.6);
+}
+.quote-box p{
+  display: block;
+  margin: 50px;
+}
+button{
+  margin: 0 auto;
+  height: auto;
+  width: auto;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.6);
+  border: 0px;
+  border-radius: 5px !important;
+}

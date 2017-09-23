@@ -7,23 +7,29 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-      <div class="container-fluid">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 quote-box">
+          <blockquote class="blockquote-reverse">
+            <p id="phrase" class="text-left">Live long and prosper.</p>
+            <footer id="episode"> Star Trek, season 2, episode 1 (“Amok Time,” 1968)</footer>
+               <div class="twitter">
+                 <a id="tweet" target="_blank" class="fa fa-twitter-square fa-5x" aria-hidden="true" href="https://twitter.com/intent/tweet?text="></a>
+               </div>
+          </blockquote>
+        </div>
+      </div>
         <div class="row">
-          <div class="col-sm-8 col-sm-offset-2 quote-box">
-            <div id="quote-box"><p>"Live long and prosper. - Star Trek, season 2, episode 1 (“Amok Time,” 1968)"</p>
-            </div>
+          <div class="col-sm-2 col-sm-offset-5 col-xs-2 col-xs-offset-3">
+              <div class="text-center"><button type="button" class="btn-lg btn-default" onclick='bip()'>ANOTHER ONE</button></div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-2 col-sm-offset-5">
-            <button type="button" class="btn-lg btn-default" onclick='bip()'>ANOTHER ONE</button>
-          </div>
+    </div>
+        <div class="footer">by<a href="http://codepen.io/Th13um/"> Mathieu Dupré-Fontana</a>
         </div>
-        </div>
-        <div class="footer"> by <a href="http://codepen.io/Th13um/">Mathieu Dupré-Fontana</a></div>
     <script src="script.js"></script>
   </body>
 </html>

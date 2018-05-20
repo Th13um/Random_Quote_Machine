@@ -1,10 +1,5 @@
 # Random_Quote_Machine
 
-Spock Random Quote machine, create by Mathieu Dupré Fontana, 2017
-.
-
-# Random_Quote_Machine
-
 This is the project n°1 of Intermediate Front End Development Projects For Free Code Camp: Random Quote machine .
 
 This project is themed about the fictionnal character Spock from the TV show Star Trek.
